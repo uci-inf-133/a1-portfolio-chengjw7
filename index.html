@@ -1,24 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
--->
-
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <meta charset="UTF-8">
+  <title>Chengjun Wu – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+
+<header class="site-header">
+  <h1>Chengjun Wu</h1>
+  <p class="tagline">Senior Computer Science Student at UCI</p>
+</header>
+
+<nav class="site-nav" aria-label="Primary navigation">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#info">Info</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li>
+      <a href="https://steamcommunity.com/profiles/76561198439137344/" target="_blank" rel="noopener">
+        Steam
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- About Section -->
+  <section id="about" class="card">
+    <h2>About Me</h2>
+
+    <img
+            src="profile.png"
+            alt="Portrait of Chengjun Wu"
+            class="profile-img"
+    >
+
+    <p>
+      I am an undergraduate Computer Science student at the University of California, Irvine, with a minor in Statistics and a strong interest in systems, data analysis, and intelligent applications. Through both coursework and hands-on projects, I have developed experience across a wide range of areas, including compiler construction, operating systems, web development, and IoT system design. During my internship at BrainCo in Shanghai, I worked on large-scale cognitive training data analysis for elderly care programs, building Python and R pipelines to process behavioral and physiological metrics and helping design machine learning models to evaluate cognitive improvement. I enjoy working at the intersection of theory and practice, turning complex technical problems into reliable, real-world systems, and I am especially motivated by projects that combine software engineering with meaningful social impact. I also like playing video games!
+    </p>
+
+    <p>
+      <a href="https://steamcommunity.com/profiles/76561198439137344/" target="_blank" rel="noopener">
+        View my Steam profile
+      </a>
+    </p>
+  </section>
+
+  <!-- Basic Info Section -->
+  <section id="info" class="card">
+    <h2>Basic Information</h2>
+
+    <ul class="info-list">
+      <li><strong>Name: Chengjun Wu</strong> </li>
+      <li><strong>Major: Computer Science</strong> </li>
+      <li><strong>University: University of California, Irvine</strong> </li>
+      <li><strong>Email: wcj1060962011@gmail.com</strong> </li>
+      <li><strong>Interests: Basketball, Video Games</strong> </li>
+    </ul>
+  </section>
+
+  <!-- Projects Section (advanced feature: accessible table) -->
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+
+    <table>
+      <caption>Selected Projects</caption>
+      <thead>
+      <tr>
+        <th scope="col">Project Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Technologies</th>
+        <th scope="col">Link</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Smart Window Control System</td>
+        <td>Designed and implemented a full-stack IoT system that automatically controls window curtains using real-time light, temperature, and humidity sensor data, with remote monitoring and manual control through a cloud-connected web interface.</td>
+        <td>ESP32, C/C++ (Arduino), Wi-Fi, ThingSpeak, Azure IoT Hub, Flask, REST APIs, HTML/CSS, Sensors (LDR, DHT20), Servo Motor</td>
+        <td><a href="https://github.com/chengjw7/cs147final">Link</a></td>
+      </tr>
+      <tr>
+        <td>AI Sokoban Solver</td>
+        <td>Developed an AI-based solver for the Sokoban puzzle game using state-space search algorithms to automatically find optimal or near-optimal solutions. The system models game states, valid moves, and goal conditions, and applies heuristic-guided search to efficiently navigate large search spaces while avoiding deadlocks and redundant states.</td>
+        <td>Python, A* Search, BFS/DFS, Heuristic Design, State-Space Search, Priority Queues, Hashing, Algorithm Optimization</td>
+        <td><a href="https://github.com/shiandrew/AI-Driven-Sokoban-Solver">Link</a></td>
+      </tr>
+      <tr>
+        <td>UCI Network Web Crawler &amp; Search Engine</td>
+        <td>
+          Built a web crawler and search engine for the UCI domain that automatically
+          collects, parses, and indexes webpages. Implemented tokenization, inverted
+          indexing, TF-IDF ranking, and PageRank to support efficient keyword search and
+          relevance-based result ordering. The system handles large-scale document
+          processing, duplicate detection, and query optimization.
+        </td>
+        <td>
+          Python, Web Crawling, BeautifulSoup, HTTP Requests, Tokenization,
+          Inverted Index, TF-IDF, PageRank, Information Retrieval, Data Structures
+        </td>
+        <td>
+          <a href="https://github.com/chengjw7/Assignment2">Link</a>
+        </td>
+      </tr>
+
+      </tbody>
+    </table>
+  </section>
+
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Chengjun Wu</p>
+</footer>
+
 </body>
 </html>

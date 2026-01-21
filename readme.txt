@@ -10,45 +10,52 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+- At least one image with a descriptive alt attribute (profile image)
+- Appropriate headings (h1, h2, h3) and paragraph text
+- Links to external pages (Steam profile link and github project links)
+- Semantic HTML tags (header, nav, main, section, footer)
+- Multiple sections with in-page navigation using anchor links (#about, #info, #projects)
 
 
 (b) CSS features
-
+- Modified padding and margins for spacing and readability (cards, layout, nav spacing)
+- Modified link and text colors for a cleaner visual design
+- Added a custom Google Font (Inter) with fallbacks
 
 
 (c) Advanced features
-
+- Accessible multi-column projects table with caption and proper table headers (scope="col")
+- Contact form using HTML form elements with labels and required fields
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+No
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+- roughly 2 - 3 hours
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
+- https://fonts.google.com/
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+None
 
 
 7. Is there anything special we need to know in order to run your code?
-
+No

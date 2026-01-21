@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #222;
+    line-height: 1.6;
+}
+
+.site-header {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.tagline {
+    color: #555;
+}
+
+.site-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #0b63ce;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3;
+}
+
+.profile-img {
+    max-width: 180px;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.info-list li {
+    margin-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+caption {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.6rem;
+}
+
+th {
+    background-color: #f1f4f8;
+}
+
+form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+input, textarea, button {
+    font-family: inherit;
+    padding: 0.5rem;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #0b63ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.site-footer {
+    padding: 1.5rem;
+    text-align: center;
+    color: #666;
+    background-color: #ffffff;
+    border-top: 1px solid #e3e3e3;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .site-nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
