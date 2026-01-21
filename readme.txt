@@ -51,7 +51,8 @@ No
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 - https://fonts.google.com/
-
+- I used ChatGPT for general assistance while working on this assignment, such as asking questions about specific HTML and CSS details, clarifying how certain tags and styles work, and getting suggestions for designing the overall page layout. All implementation and final design decisions were made by me.
+- Also it helps me with some context like About Me just to make it clearer to audiences.
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 None
